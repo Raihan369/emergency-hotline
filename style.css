@@ -38,3 +38,27 @@ body {
 #coinsCount{
     font-weight: 600;
 }
+
+
+/* hero section gradient  */
+.hero-section {
+    background: radial-gradient(80% 120% at 50% 0%, #0f6f4a 0%, #0d5b3d 40%, #0a4b32 70%, #083f2a 100%);
+    padding: 30px 30px;
+  }
+
+  .hero-section .text-white{
+    color: #fff !important;
+  }
+.hero-section p{
+    color: #fff !important;
+  }
+
+  /* hero badge img resize  */
+  .hero-badge {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #ffffff22;
+    padding: 6px;
+    object-fit: cover;
+  }
