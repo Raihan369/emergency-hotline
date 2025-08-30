@@ -1,0 +1,40 @@
+/* Font Hind Madurai */
+body {
+  font-family: 'Hind Madurai', sans-serif;
+  background: #eef9f2;
+}
+
+/* navbar section  */
+.fw-bold{
+    color: #006747 !important;
+    line-height: 100%;
+}
+
+.heart {
+    background: rgba(65, 255, 107, 0.1); /* 0.1 = 10% opacity */
+    border-radius: 20px;
+    width: 100px !important;
+    padding: 5px 0px;
+}
+
+.gap-custom-1{
+    gap: 3.5rem !important;
+}
+.gap-custom-2 {
+    gap: .5rem !important;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy{
+    background-color: #00A63E;
+    padding: 6px 20px;
+    color: #fff;
+}
+#heartsCount{
+    font-weight: 600;
+}
+#coinsCount{
+    font-weight: 600;
+}
