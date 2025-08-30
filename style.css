@@ -62,3 +62,73 @@ body {
     padding: 6px;
     object-fit: cover;
   }
+
+
+  
+  /* Cards  */
+
+.icon-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 20%;
+    background-color: #FFE3E2;
+    color: #41FF6B;
+}
+
+.police-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 20%;
+    background-color: #DFEFFF;
+    color: #41FF6B;
+  }
+  
+  
+  .service-card .service-number {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  
+  .badge-soft {
+    background: #f1f5f9;
+    color: #334155;
+    border-radius: 12px;
+    /* border: 1px solid #e5e7eb; */
+}
+  
+  .btn-copy {
+    border: 1px solid #d1d5db;
+  }
+  .btn-copy:hover{
+    background-color: #334155;
+    transition: 0.3s all ease-in-out;
+    color: #fff;
+  }
+  .btn-success:hover{
+    background-color: #7ea28b;
+    transition: 0.3s all ease-in-out;
+    color: #fff;
+  }
+
+  /* History card  */
+  .history-card {
+    background: #fff;
+  }
+  #clearHistoryBtn{
+    background-color: #00A63E;
+    padding: 6px 20px;
+    color: #fff;
+    border-radius: 16px;
+    border: none;
+  }
+  #clearHistoryBtn:hover{
+    background-color: #7ea28b;
+    transition: 0.3s all ease-in-out;
+    color: #fff;
+  }
